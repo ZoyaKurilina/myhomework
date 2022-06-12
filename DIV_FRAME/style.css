@@ -1,0 +1,78 @@
+.frame {
+    position: relative;
+    display: inline-block;
+}
+
+.ltop {
+    background-image: url(./frame/ltop.png);
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    z-index: 1; 
+}
+
+.lbot {
+    background-image: url(./frame/lbot.png);
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;  
+}
+
+.rtop {
+    background-image: url(./frame/rtop.png);
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    right: 0;
+    z-index: 1;  
+}
+
+.rbot {
+    background-image: url(./frame/rbot.png);
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.lvert {
+    background-image: url(./frame/vertical.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+
+.rvert {
+    background-image: url(./frame/vertical.png);
+    height: 100%;
+    width: 37px;
+    background-repeat: repeat-y;
+    position: absolute;
+    right: 0; 
+}
+
+.thor {
+    background-image: url(./frame/horizontal.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.bhor {
+    background-image: url(./frame/horizontal.png);
+    height: 37px;
+    width: 100%;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0;
+}
+
+.content {
+    margin: 105px;
+}

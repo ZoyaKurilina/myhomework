@@ -1,0 +1,16 @@
+.first a {
+    border-right: 3px solid red;
+    padding: 25px;
+}
+
+div.first :nth-last-of-type(1) {
+    border: none;
+} 
+
+.first a:hover {
+    color: red;
+}
+
+div {
+    margin-bottom: 50px;
+}

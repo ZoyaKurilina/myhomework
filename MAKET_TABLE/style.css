@@ -1,0 +1,45 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+    border: 1px;
+    height: 100vh;
+}
+
+.navigation {
+    width: 150px;
+    /* max-width: 20%; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 144);
+    height: 100%;
+    display: inline-block;
+
+}
+
+.content {
+    width: 100%;
+    margin: 160px;
+    padding: 16px;
+    height: 100%;
+    /* position: relative; */
+    
+}
+
+.header, .footer {
+    background-color: aqua;
+   
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+}
+
+.header {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+}
