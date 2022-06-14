@@ -1,3 +1,7 @@
+a {
+    color: green;
+}
+
 .first a {
     border-right: 3px solid red;
     padding: 25px;
@@ -13,4 +17,56 @@ div.first :nth-last-of-type(1) {
 
 div {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
+
+p  {
+        display: inline-block;
+        width: 3px;
+        height: 30px;
+        background-color: red;
+
+}
+
+.second a {
+    margin-right: 47px;
+    position: relative;
+    bottom: 30px;
+    left: 24px;
+}
+
+div.second :nth-last-of-type(1) {
+    background-color: transparent;
+}
+
+.second a:hover {
+    color: red;
+}
+
+div.third a {
+    background-image: url(./red.jpg);
+    padding: 27px;
+    background-size: 3px 30px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.third a:hover {
+    color: red;
+}
+
+div.third :nth-last-of-type(1) {
+    background-image: none;
+} 
+
+.fourth ::after {
+    content: '|';
+    color: red;
+    margin: 26px;
+}
+
+.fourth a:hover {
+    color: red;
+}
+
+    

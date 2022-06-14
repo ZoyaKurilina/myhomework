@@ -1,0 +1,33 @@
+
+.stars {
+	overflow: hidden;
+	width: 400px;
+	margin: 100px;
+}
+.stars:not(:checked) > input {
+	display: none;
+}
+.stars:not(:checked) > label {
+    content: url(./star0.png);
+
+}
+.stars:not(:checked) > label:before {
+	content: url(./star0.png);
+}
+.stars > input:checked ~ label {
+	content: url(./star1.png);
+}
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label {
+	content: url(./star1.png);
+}
+.stars > input:checked + label:hover,
+.stars > input:checked + label:hover ~ label,
+.stars > input:checked ~ label:hover,
+.stars > input:checked ~ label:hover ~ label,
+.stars > label:hover ~ input:checked ~ label {
+	content: url(./star1.png);
+}
+.stars > label:active {
+	position: relative;
+}

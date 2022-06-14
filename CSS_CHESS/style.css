@@ -1,0 +1,38 @@
+table.CHESS tr:first-of-type td {
+    background: green;
+    height: 20px; 
+    
+}
+
+table.CHESS tr:last-of-type td {
+    background: green;
+    height: 20px; 
+    
+}
+
+
+.CHESS {
+    background: black;
+}
+
+
+
+tr:nth-child(odd) td:nth-child(even) {
+    background: #ffffff;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+}
+
+
+
+table.CHESS tr td:last-child   {
+    background: green;
+    width: 20px;
+}
+
+table.CHESS tr td:first-child   {
+    background: green;
+    width: 20px;
+}
